@@ -1,0 +1,49 @@
+body {
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 1980px 900px;
+  -webkit-filter: grayscale(1);
+  filter: gray;
+}
+
+h1{
+	text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+	color: white;
+	font-size: 2em;
+	font-family: consolas;
+    margin: 300px 0px 44px 0px;
+}
+
+.button {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #fff;
+  border: 2px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+}
+
+.button-transition {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #fff;
+  border: 5px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out,
+              color 0.2s ease-out;
+}
+
+.button-transition:hover,
+.button-transition:active {
+  background-color: #fff;
+  color: #000;
+  transition: background-color 0.3s ease-in,
+              color 0.3s ease-in;
+}
